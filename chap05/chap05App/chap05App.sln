@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chap05App", "chap05App\chap05App.csproj", "{ACA63F27-1641-4168-9C5C-185770707EF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchTestApp", "SwitchTestApp\SwitchTestApp.csproj", "{3CC719A4-F06A-4B34-92D0-987C258A04C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopTestApp", "LoopTestApp\LoopTestApp.csproj", "{4C32EC57-14E6-4CDB-85C8-0113246E487E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{ACA63F27-1641-4168-9C5C-185770707EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACA63F27-1641-4168-9C5C-185770707EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACA63F27-1641-4168-9C5C-185770707EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CC719A4-F06A-4B34-92D0-987C258A04C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CC719A4-F06A-4B34-92D0-987C258A04C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CC719A4-F06A-4B34-92D0-987C258A04C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CC719A4-F06A-4B34-92D0-987C258A04C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C32EC57-14E6-4CDB-85C8-0113246E487E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C32EC57-14E6-4CDB-85C8-0113246E487E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C32EC57-14E6-4CDB-85C8-0113246E487E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C32EC57-14E6-4CDB-85C8-0113246E487E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
