@@ -15,9 +15,14 @@ namespace ProfileTestApp
             if(PrintProfile(null, "010-1111-2222") == -1) {
                 Console.WriteLine("프로필 출력시 오류가 발생했습니다.");
             }
+
+            //PrintProfile(phone: "010-9999-9999", name: "홍길동");
+            PrintProfile("최백호");
+
+
         }
 
-        public static int PrintProfile(string name, string phone)
+        public static int PrintProfile(string name, string phone = "010-7979-7979")
         {
             if (string.IsNullOrEmpty(name))
             {
