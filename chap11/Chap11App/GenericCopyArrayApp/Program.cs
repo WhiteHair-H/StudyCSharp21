@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections;
 
-namespace Chap11App
+namespace GenericCopyArrayApp
 {
     class Program
     {
@@ -28,35 +27,10 @@ namespace Chap11App
             }
 
 
-            float[] source3 = { 1.1f, 2.2f, 3.3f, 4.4f };
-            float[] target3 = new float[source3.Length];
-
-            CopyArray(source3, target3);
-            Console.WriteLine("float 배열 복사");
-            foreach (var item in target3)
-            {
-                Console.WriteLine(item);
-            }
 
         }
 
-        private static void CopyArray(float[] source3, float[] target3)
-        {
-            for (int i = 0; i < source3.Length; i++)
-            {
-                target3[i] = source3[i];
-            }
-        }
-
-        private static void CopyArray(string[] source2, string[] target2)
-        {
-            for (int i = 0; i < source2.Length; i++)
-            {
-                target2[i] = source2[i];
-            }
-        }
-
-        private static void CopyArray(int[] source, int[] target)
+        private static void CopyArray<T>(T[] source, T[] target) // T or P를 사용해도 됨
         {
             for (int i = 0; i < source.Length; i++)
             {
