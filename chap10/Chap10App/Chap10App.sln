@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap10App", "Chap10App\Chap10App.csproj", "{E7391C63-B6CD-4A5F-A569-E804765B07BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chap10App", "Chap10App\Chap10App.csproj", "{E7391C63-B6CD-4A5F-A569-E804765B07BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DArrayTestApp", "2DArrayTestApp\2DArrayTestApp.csproj", "{30CDC327-B79A-47EF-AE25-08088D77E77B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2DArrayTestApp", "2DArrayTestApp\2DArrayTestApp.csproj", "{30CDC327-B79A-47EF-AE25-08088D77E77B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayListApp", "ConsoleApp1\ArrayListApp.csproj", "{5F11F062-C7D6-4ED8-ABE4-B4280B3698A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTableApp", "HashTableApp\HashTableApp.csproj", "{784FC3A2-C157-4357-AA30-D2F06B6AC41F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitCollectionApp", "InitCollectionApp\InitCollectionApp.csproj", "{9E8121D9-CA17-448E-A280-B58C9ABF8EB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{30CDC327-B79A-47EF-AE25-08088D77E77B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30CDC327-B79A-47EF-AE25-08088D77E77B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30CDC327-B79A-47EF-AE25-08088D77E77B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F11F062-C7D6-4ED8-ABE4-B4280B3698A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F11F062-C7D6-4ED8-ABE4-B4280B3698A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F11F062-C7D6-4ED8-ABE4-B4280B3698A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F11F062-C7D6-4ED8-ABE4-B4280B3698A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{784FC3A2-C157-4357-AA30-D2F06B6AC41F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{784FC3A2-C157-4357-AA30-D2F06B6AC41F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{784FC3A2-C157-4357-AA30-D2F06B6AC41F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{784FC3A2-C157-4357-AA30-D2F06B6AC41F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E8121D9-CA17-448E-A280-B58C9ABF8EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E8121D9-CA17-448E-A280-B58C9ABF8EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E8121D9-CA17-448E-A280-B58C9ABF8EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E8121D9-CA17-448E-A280-B58C9ABF8EB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
