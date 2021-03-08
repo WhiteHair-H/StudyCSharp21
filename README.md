@@ -197,7 +197,7 @@
 
 
 #### 반응형 웹 그리드 레이아웃 웹 페이지 실습
-![결과1](/image/Address1.JPG "처음화면")
+![결과1](/ref_Imagefiles/Address1.JPG "처음화면")
 ![결과2](/ref_images/result002.png "팝업 레이아웃")
 
 
