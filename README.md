@@ -193,7 +193,7 @@
 
 ## 사용 프로그램
 - visual studio code
-<img src = "https://venturebeat.com/wp-content/uploads/2019/11/visual-studio-logo.jpeg?w=930&strip=all" width = "500" height = "100"/>
+<img src = "https://venturebeat.com/wp-content/uploads/2019/11/visual-studio-logo.jpeg?w=930&strip=all" width = "300" height = "100"/>
 
 
 #### 반응형 웹 그리드 레이아웃 웹 페이지 실습
