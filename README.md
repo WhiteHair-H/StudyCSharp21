@@ -31,56 +31,48 @@
 - C언어로부터 연산자와 문장 등 기본적인 언어의 기능 상속
 - C++로부터 객체지향 특성상속
 
-
-## ⌨HTML5 기본 학습 자료
-- [HTML소스](https://github.com/WhiteHair-H/StudyHtml/blob/main/01_HTML/index.html)
-
-### 🔑예제 코드
-```
-<body>
-    <div>div태그 - 블록형식</div>
-    <div>div태그 - 블록형식</div>
-```
-```
-<td>
-     <input id="95" type="radio" name="95" value="95">
-     <label for="95">95</label>
-</td>
-```
-
 --------------------------
 
-## CSS3 기본 학습
+## C# 기초
 ### 🏳Contents
-- CSS3 기초
-- CSS3 속성
-- Composition and functions of various layouts
-
-
-
-## ⌨CSS3 기본 학습 자료
-- [CSS소스](https://github.com/WhiteHair-H/StudyHtml/tree/main/02_CSS)
+- Using System
+- HelloWorld
 
 
 ### 🔑예제 코드
 ```
-<style>
-        body {
-            background-size: 100% 250px;
-            background-repeat: no-repeat;
-            background-position: 0px 50%;
-            background-attachment:  fixed;
-            background-color: azure;
-            text-align: center;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConstTestApp
+{ 
+    class Program
+    {
+        enum Season
+        {
+            Spring = 1000, 
+            summer = 2000,
+            Fall = 3000,
+            Winter = 4000
         }
-        a{
-            font-size: 50px;
-            text-decoration: rgb(107, 20, 220);
+        static void Main(string[] args)
+        {
+            Console.WriteLine("상수테스트");
+            const double PI = 3.141592;
+            Console.WriteLine($"원주율의 값은 {PI}");
+            //PI = 6.345;
+            Season mySeason = Season.Winter; // error(Season)3;//Season.summer;
+            Console.WriteLine($"지금 계절은 {mySeason}입니다");
+            int a = 0;
+            Console.WriteLine($"a는 {a}");
+            int? b = null;
+            Console.WriteLine($"b는 {b}");
         }
-        a:hover{
-            text-decoration: underline;
-        }
-    </style>
+    }
+}
 ```
 
 ---------------------------
