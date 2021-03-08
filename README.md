@@ -38,6 +38,9 @@
 - Using System
 - HelloWorld
 
+## ⌨기본 학습 자료
+- [C# Base](https://github.com/WhiteHair-H/StudyCSharp21/commit/4ed8ec0df86ed6209d12c39e3bc27e3d55fce1e9)
+
 
 ### 🔑예제 코드
 ```
