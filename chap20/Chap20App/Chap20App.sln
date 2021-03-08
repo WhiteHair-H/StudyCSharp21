@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWIndowApp", "MyWIndowApp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingControlsApp", "UsingControlsApp\UsingControlsApp.csproj", "{C85ED2CB-AEA7-4AC3-95F5-4C2B5AE62687}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCopyApp", "FileCopyApp\FileCopyApp.csproj", "{D02F867E-D175-4091-956C-2F5088611F74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C85ED2CB-AEA7-4AC3-95F5-4C2B5AE62687}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C85ED2CB-AEA7-4AC3-95F5-4C2B5AE62687}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C85ED2CB-AEA7-4AC3-95F5-4C2B5AE62687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D02F867E-D175-4091-956C-2F5088611F74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D02F867E-D175-4091-956C-2F5088611F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D02F867E-D175-4091-956C-2F5088611F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D02F867E-D175-4091-956C-2F5088611F74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
