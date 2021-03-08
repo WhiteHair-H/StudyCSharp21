@@ -39,7 +39,7 @@
 - 데이터  
 
 ## ⌨기본 학습 자료
-- [C# Base](https://github.com/WhiteHair-H/StudyCSharp21/commit/4ed8ec0df86ed6209d12c39e3bc27e3d55fce1e9)
+- [Base](https://github.com/WhiteHair-H/StudyCSharp21/commit/4ed8ec0df86ed6209d12c39e3bc27e3d55fce1e9)
 
 
 ### 🔑예제 코드
@@ -62,58 +62,53 @@
 
 ---------------------------
 
-## 코드제어
+## 클래스
 ### 🏳Contents
-- IF문
-- Swich문
+- Class
 
 ## ⌨기본 학습 자료
-- [C# Code Control](https://github.com/WhiteHair-H/StudyCSharp21/tree/main/chap04/chap04App)
+- [Class](https://github.com/WhiteHair-H/StudyCSharp21/tree/main/chap05/chap05App)
 
 ### 🔑예제 코드
 ```
-    static void Main(string[] args)
+   class Program
+    { static void Main(string[] args)
         {
-            var values = 37656234;
-            if (values % 2 == 0)
+            //if문
+            while (true)
             {
-                Console.WriteLine("짝수입니다");
-            }
-            else
-            {
-                Console.WriteLine("홀수입니다");
-            }
+                Console.Write("수를 입력하세요 : ");
+                string line = Console.ReadLine(); // 콘솔에서 입력값을 변수할당
+
+                if (line == "quit") break; // quit 입력시 종료
+                {
+                }
 ```
 
 ---------------------------
 
-## Javascript 기본 학습
+## 인터페이스 및 추상클래스
 ### 🏳Contents
-- Javascript 기본 문법
-- 문서 객체 모델
-- JQuery 라이브러리
+- 인터페이스
+- 추상클래스
 
 ## ⌨Javascript 기본 학습 자료
-- [Javascript](https://github.com/WhiteHair-H/StudyHtml/tree/main/03_javascript)
+- [InterFace](https://github.com/WhiteHair-H/StudyCSharp21/tree/main/chap08/Chap08App)
 
 
 ### 🔑예제 코드
 ```
-      <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-    <script>
-        // 이벤트를 연결합니다.
-        $(document).ready(function () {
-            // 10회 반복합니다.
-            for (var i = 0; i < 10; i++) {
-                // 문서 객체를 생성합니다.
-                $('<h1>Create Document Object + ' + i + '</h1>').css({
-                    backgroundColor: 'black',
-                    color: 'red'  
-                }).appendTo('body');
-                
-            }
-        });
-    </script>
+      interface ILogger
+    {
+        void writeLog(string msg);
+    }
+    class ConsoleLogger : ILogger
+    {
+        public void writeLog(string msg)
+        {
+            Console.WriteLine($"{DateTime.Now.ToShortDateString()} log : {msg}");
+        }
+    }
 ```
 ---------------------------
 
