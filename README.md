@@ -2,7 +2,6 @@
 
 ## 🏳Contents
 - C#이란
-- C# 기초
 - 데이터 처리 및 보관
 - 코드제어
 - 클래스
@@ -16,7 +15,7 @@
 - 리플렉션과 애트리뷰트
 - 스레드와 테스크
 - WINFORM
-- 가비지 
+- 주소록 
 
 ## ⏰기간
 - [2021-02-22] ~ [2021-03-08]
@@ -33,10 +32,11 @@
 
 --------------------------
 
-## C# 기초
+## C# 데이터 처리 및 보관
 ### 🏳Contents
-- Using System
-- HelloWorld
+- 기초
+- 데이터 처리
+- 데이터  
 
 ## ⌨기본 학습 자료
 - [C# Base](https://github.com/WhiteHair-H/StudyCSharp21/commit/4ed8ec0df86ed6209d12c39e3bc27e3d55fce1e9)
@@ -44,23 +44,6 @@
 
 ### 🔑예제 코드
 ```
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConstTestApp
-{ 
-    class Program
-    {
-        enum Season
-        {
-            Spring = 1000, 
-            summer = 2000,
-            Fall = 3000,
-            Winter = 4000
-        }
         static void Main(string[] args)
         {
             Console.WriteLine("상수테스트");
@@ -74,25 +57,32 @@ namespace ConstTestApp
             int? b = null;
             Console.WriteLine($"b는 {b}");
         }
-    }
-}
+
 ```
 
 ---------------------------
 
-## Responsive Web 기본 학습
+## 코드제어
 ### 🏳Contents
-- Responsive Web 소개
-- Responsive Web 설정
-- Responsive Web 패턴
+- IF문
+- Swich문
 
-## ⌨Responsive Web 기본 학습 자료
-- [Responsive Web](https://github.com/WhiteHair-H/StudyHtml/tree/main/02_CSS)
+## ⌨기본 학습 자료
+- [C# Code Control](https://github.com/WhiteHair-H/StudyCSharp21/tree/main/chap04/chap04App)
 
 ### 🔑예제 코드
 ```
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    static void Main(string[] args)
+        {
+            var values = 37656234;
+            if (values % 2 == 0)
+            {
+                Console.WriteLine("짝수입니다");
+            }
+            else
+            {
+                Console.WriteLine("홀수입니다");
+            }
 ```
 
 ---------------------------
