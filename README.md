@@ -6,15 +6,10 @@
 - 코드제어
 - 클래스
 - 인터페이스와 추상클래스
-- 프로퍼티
 - 배열과 컬렉션
 - 예외처리
 - 대리자와 이벤트
-- 람다식
-- LINQ
-- 리플렉션과 애트리뷰트
 - 스레드와 테스크
-- WINFORM
 - 주소록 
 
 ## ⏰기간
@@ -32,11 +27,7 @@
 
 --------------------------
 
-## C# 데이터 처리 및 보관
-### 🏳Contents
-- 기초
-- 데이터 처리
-- 데이터  
+## C# 데이터 처리 및 보관 
 
 ## ⌨기본 학습 자료
 - [Base](https://github.com/WhiteHair-H/StudyCSharp21/commit/4ed8ec0df86ed6209d12c39e3bc27e3d55fce1e9)
@@ -63,8 +54,6 @@
 ---------------------------
 
 ## 클래스
-### 🏳Contents
-- Class
 
 ## ⌨기본 학습 자료
 - [Class](https://github.com/WhiteHair-H/StudyCSharp21/tree/main/chap05/chap05App)
@@ -88,11 +77,8 @@
 ---------------------------
 
 ## 인터페이스 및 추상클래스
-### 🏳Contents
-- 인터페이스
-- 추상클래스
 
-## ⌨Javascript 기본 학습 자료
+## ⌨기본 학습 자료
 - [InterFace](https://github.com/WhiteHair-H/StudyCSharp21/tree/main/chap08/Chap08App)
 
 
@@ -112,17 +98,102 @@
 ```
 ---------------------------
 
+## 배열과 컬렉션
 
-## Project
-### 전체 통합 프로젝트
-- 홈페이지 제작
+## ⌨기본 학습 자료
+- [배열](https://github.com/WhiteHair-H/StudyCSharp21/tree/main/chap10/Chap10App)
 
-## ⌨Project 기본 학습 자료
-- [Project](https://github.com/WhiteHair-H/StudyHtml/commit/17a5896c30be2415a40f209e526a6b9c5b766925)
+
+### 🔑예제 코드
+```
+     class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] scores = { 80, 74, 90, 65, 10 }; /*new int[5];
+            scores[0] = 5;
+            scores[1] = 10;
+            scores[2] = 80;
+            scores[3] = 74;
+            scores[4] = 90;*/
+            for (var i = 0; i < scores.Length; i++)
+            {
+                Console.WriteLine($"{i}의 점수는 {scores[i]}");
+            }
+```
+---------------------------
+
+## 예외처리
+
+## ⌨기본 학습 자료
+- [TryCatch](https://github.com/WhiteHair-H/StudyCSharp21/tree/main/chap12/Chap12App)
+
+
+### 🔑예제 코드
+```
+     try
+            {
+                for (int i = 0; i < 3; i++)
+                {
+                    Console.WriteLine(arr[i]);
+                }
+                 result = x / y;
+                 Console.WriteLine($"결과는 {result}");
+            }
+            catch (IndexOutOfRangeException ex)
+            {
+                Console.WriteLine($"예외발생했다 임마 {ex.Message}");
+            }
+```
+---------------------------
+## 대리자와 이벤트
+
+## ⌨기본 학습 자료
+- [Delegate](https://github.com/WhiteHair-H/StudyCSharp21/tree/main/chap13/Chap13App)
+
+
+### 🔑예제 코드
+```
+      delegate void AllClac(int x, int y); // 대리자 선언
+      
+      Console.WriteLine("Calculating!");
+            AllClac allClac = Plus;
+             allClac += Minus;
+             allClac += Divide;
+             allClac += multiple;
+
+            allClac(10, 5);
+```
+---------------------------
+## 스레드와 태스크
+
+## ⌨기본 학습 자료
+- [Thread](https://github.com/WhiteHair-H/StudyCSharp21/tree/main/chap19/Chap19App)
+
+
+### 🔑예제 코드
+```
+     static void Dosomething()
+        {
+            for (int i = 0; i < 50; i++)
+            {
+                Console.WriteLine($"Dosomething : {i}");
+                Thread.Sleep(10); // 1/100초 동안 멈춤
+            }
+        }
+```
+---------------------------
+
+
+## 주소록 Project
+### 콘솔로 만든 주소록
+
+## ⌨Project 자료
+- [Address Project](https://github.com/WhiteHair-H/StudyCSharp21/tree/main/chap99/AddressBookApp/AddressBookApp)
 
 ## 사용 프로그램
 - visual studio code
-<img src = "https://pbs.twimg.com/profile_images/1278357302601347072/BGZIBPH9_400x400.jpg" width = "80" height = "80"/>
+<img src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fvisualstudio.microsoft.com%2Fko%2F&psig=AOvVaw0adDJSWSOvzEoQn2Cxv4kA&ust=1615275187706000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIj50pGXoO8CFQAAAAAdAAAAABAY" width = "80" height = "80"/>
 
 
 #### 반응형 웹 그리드 레이아웃 웹 페이지 실습
